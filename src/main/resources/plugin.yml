@@ -1,0 +1,390 @@
+name: NenPlugin
+version: '${project.version}'
+main: zerog.plugin.nenplugin.NenPlugin
+api-version: 1.18
+authors: [ Zerog228, ErRoR_SINNER, eric_sx ]
+description: Ooga Booga
+website: mc.demostate.ru
+depend:
+  [LuckPerms, CoreProtect]
+commands:
+  testo:
+    description: Just a Test
+    permission: nen.default
+    usage: /<command>
+    permission-message: You don't have permissions
+  openmenu:
+    description: psy
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  dc:
+    description: DC + VK
+    permission: nen.default
+    usage: /<command>
+    aliases:
+      - vk
+      - discord
+      - socials
+      - yt
+  vote:
+    description: vote
+    permission: nen.default
+    usage: /<command>
+    permission-message: You don't have permissions
+  remove_attributes:
+    description: remove
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  menu:
+    description: Меню
+    permission: nen.default
+    usage: /<command>
+    aliases:
+      - меню
+    permission-message: You don't have permissions
+  crafts:
+    description: Крафты
+    permission: nen.default
+    usage: /<command>
+    aliases:
+      - меню
+    permission-message: You don't have permissions
+  help:
+    description: help
+    permission: nen.default
+    usage: /<command>
+    aliases:
+      - помощь
+    permission-message: You don't have permissions
+  rules:
+    description: rules
+    permission: nen.default
+    usage: /<command>
+    aliases:
+      - rule
+      - Правила
+    permission-message: You don't have permissions
+  upgrades:
+    description: upgrades
+    permission: nen.admin
+    usage: /<command>
+    aliases:
+      - upgrade
+      - upgrades
+      - Улучшения
+    permission-message: You don't have permissions
+  classes:
+    description: classes
+    permission: nen.default
+    usage: /<command>
+    aliases:
+      - классы
+    permission-message: You don't have permissions
+  classes2:
+    description: classes2
+    permission: nen.default
+    usage: /<command>
+    aliases:
+      - классы 2
+    permission-message: You don't have permissions
+  stats:
+    description: Прокачка статов
+    permission: nen.default
+    usage: /<command>
+    aliases:
+      - stat
+      - статы
+      - характеристика
+      - характеристики
+    permission-message: You don't have permissions
+  roll:
+    description: Бросить куб
+    permission: nen.roller
+    usage: /<command>
+    aliases:
+      - roll
+      - dice
+    permission-message: You don't have permissions
+  set_bomber:
+    description: Подрывник
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  set_parasite:
+    description: Паразит
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  monke:
+    description: Return to monke
+    permission: nen.admin
+    usage: /<command> <player>
+    aliases:
+      - ReturnToMonke
+      - toMonke
+    permission-message: You don't have
+  set_mazohist:
+    description: Mazo
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  set_politic:
+    description: polit
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  set_warrior:
+    description: warrior
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  set_builder:
+    description: builder
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  set_ironclad:
+    description: ironclad
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  set_berserk:
+    description: berserk
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  set_paladin:
+    description: paladin
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  set_detective:
+    description: detective
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  set_roller:
+    description: roller
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  set_vampire:
+    description: vampire
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  set_werewolf:
+    description: werewolf
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  set_archer:
+    description: archer
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  set_mermaid:
+    description: mermaid
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  set_lich:
+    description: lich
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  set_spider:
+    description: spider
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  set_hellboy:
+    description: hellboy
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  set_assassin:
+    description: assasin
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  set_martyr:
+    description: martyr
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  set_jesus:
+    description: jesus
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  setnenexp:
+    description: exp
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  setnenpoints:
+    description: points
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+  publicchest:
+    description: public
+    permission: nen.default
+    usage: /<command>
+    permission-message: You don't have permissions
+  a_crafts:
+    description: crafts
+    permission: nen.default
+    usage: /<command>
+    permission-message: You don't have permissions
+  d_crafts:
+    description: crafts
+    permission: nen.default
+    usage: /<command>
+    permission-message: You don't have permissions
+  r_crafts:
+    description: crafts
+    permission: nen.default
+    usage: /<command>
+    permission-message: You don't have permissions
+  s_crafts:
+    description: crafts
+    permission: nen.default
+    usage: /<command>
+    permission-message: You don't have permissions
+  c_crafts:
+    description: crafts
+    permission: nen.default
+    usage: /<command>
+    permission-message: You don't have permissions
+  addperms:
+    description: perms
+    permission: nen.admin
+    usage: /<command>
+    permission-message: You don't have permissions
+
+permissions:
+  nen.default:
+    description: none
+    default: true
+  nen.class_roll:
+    description: none
+    default: false
+  nen.roller:
+    description: none
+    default: false
+  nen.reroller:
+    description: none
+    default: false
+  nen.berserk:
+    description: none
+    default: false
+  nen.parasite:
+    description: none
+    default: false
+  nen.paladin:
+    description: none
+    default: false
+  nen.bomber:
+    description: none
+    default: false
+  nen.mazohist:
+    description: none
+    default: false
+  nen.ironclad:
+    description: none
+    default: false
+  nen.builder:
+    description: none
+    default: false
+  nen.warrior:
+    description: none
+    default: false
+  nen.politic:
+    description: none
+    default: false
+  nen.vampire:
+    description: none
+    default: false
+  nen.archer:
+    description: none
+    default: false
+  nen.werewolf:
+    description: none
+    default: false
+  nen.mermaid:
+    description: none
+    default: false
+  nen.lich:
+    description: none
+    default: false
+  nen.hellboy:
+    description: none
+    default: false
+  nen.spider:
+    description: none
+    default: false
+  nen.assassin:
+    description: none
+    default: false
+  nen.martyr:
+    description: none
+    default: false
+  nen.jesus:
+    description: none
+    default: false
+  nen.water_step:
+    description: none
+    default: false
+  nen.miner:
+    description: none
+    default: false
+  nen.butcher:
+    description: none
+    default: false
+  nen.farmer:
+    description: none
+    default: false
+  nen.sunburn:
+    description: none
+    default: false
+  nen.vampirism:
+    description: none
+    default: false
+  nen.vampirism2:
+    description: none
+    default: false
+  nen.potion_reverse:
+    description: none
+    default: false
+  nen.fire_res:
+    description: none
+    default: false
+  nen.reinforcement:
+    description: none
+    default: false
+  nen.venom:
+    description: none
+    default: false
+  nen.climbing:
+    description: none
+    default: false
+  nen.rebirth:
+    description: none
+    default: false
+  nen.bowstring:
+    description: none
+    default: false
+  nen.multiply:
+    description: none
+    default: false
+  nen.craft:
+    description: none
+    default: false
+  nen.admin:
+    description: none
+    default: op
+
